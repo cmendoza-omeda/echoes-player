@@ -1,6 +1,7 @@
 import { Http, URLSearchParams, RequestOptionsArgs, Headers } from '@angular/http';
 import { Injectable } from '@angular/core';
 import { YOUTUBE_API_KEY } from '../constants';
+import { REFERER } from '../constants';
 import { Authorization } from '../authorization.service';
 
 export const DataApiProviders = {
@@ -47,7 +48,8 @@ export class YoutubeDataApi {
   private _defaultUrlParams = {
     part: 'snippet,id',
     maxResults: '50',
-    key: YOUTUBE_API_KEY
+    key: YOUTUBE_API_KEY,
+    referer: REFERER
   };
 
   constructor (private http: Http, private auth: Authorization) {

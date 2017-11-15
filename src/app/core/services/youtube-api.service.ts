@@ -54,6 +54,7 @@ export class YoutubeApiService {
   resetConfig() {
     this.config.set('part', 'snippet,contentDetails');
     this.config.set('key', YOUTUBE_API_KEY);
+    this.config.set('referer', YOUTUBE_API_KEY);
     this.config.set('maxResults', '50');
     this.config.set('pageToken', '');
   }
