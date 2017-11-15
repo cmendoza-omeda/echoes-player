@@ -32,8 +32,8 @@ export class AppNavigatorComponent implements OnInit {
 
   public searchType$ = this.store.let(getSearchType$);
   public routes = [
-    { link: 'search', icon: 'fa fa-music', label: 'Explore' }
-    // { link: '/user', icon: 'fa fa-heart', label: 'My Profile' }
+    { link: 'search', icon: 'fa fa-search', label: 'Search' },
+    { link: 'search', icon: 'fa fa-comments-o', label: 'Topics' }
   ];
 
   constructor(

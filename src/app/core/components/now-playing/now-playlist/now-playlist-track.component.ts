@@ -18,7 +18,7 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
         </span>
       </section>
 
-      <section class="video-title" (click)="markSelected(video)" [tooltip]="video.snippet.title">{{ video.snippet.title }}</section>
+      <section class="video-title" (click)="markSelected(video)">{{ video.snippet.title }}</section>
       </div>
     <aside class="playlist-track__content">
       <button class="btn label bg-primary fa fa-list-ul playlist-track"
