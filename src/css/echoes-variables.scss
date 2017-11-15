@@ -78,10 +78,10 @@ $link-hover-color:          var(--link-primary-hover-color);
 //
 //## Font, line-height for body text, headings, and more.
 
-$font-family-base:          'Open Sans Condensed', 'Open Sans', Helvetica, Arial, sans-serif;
+$font-family-base:          'Open Sans', Helvetica, Arial, sans-serif;
 $font-family-demo:          "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-monospace:     Monaco, Menlo, Consolas, "Courier New", monospace;
-$font-family-narrow:		'Open Sans Condensed', 'Open Sans', Helvetica;
+$font-family-narrow:		'Open Sans', Helvetica;
 $font-size-base:            14px;
 
 $font-size-h1:            floor(($font-size-base * 2.6)); // ~36px
@@ -110,8 +110,8 @@ $icon-font-name:            "glyphicons-halflings-regular";
 $icon-font-svg-id:          "glyphicons_halflingsregular";
 
 //** Icon sizes for use in components
-$icon-normal:               16px;
-$icon-medium:               18px;
+$icon-normal:               14px;
+$icon-medium:               16px;
 $icon-large:                32px;
 
 
