@@ -28,9 +28,11 @@ export interface IPresetParam {
 export class CSearchTypes {
   static VIDEO =  'video';
   static PLAYLIST = 'playlist';
+  static CHANNEL = 'channel';
 }
 
 export class CPresetTypes {
   static FULL_ALBUMS = 'full albums';
   static LIVE = 'live';
+  static CHANNEL = 'channel';
 }

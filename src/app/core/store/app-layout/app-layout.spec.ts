@@ -13,7 +13,7 @@ describe('The App Settings Reducer', () => {
         isNewAvailable: false,
         checkingForVersion: false
       },
-      theme: 'arctic',
+      theme: 'react',
       themes: []
     };
     return { ...defaultState, ...props };

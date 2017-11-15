@@ -1,4 +1,5 @@
 export const Themes = [
+  'react',
   'arctic',
   'halloween'
 ];

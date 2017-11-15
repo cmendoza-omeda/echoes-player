@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   theme$ = this.store.select(getAppTheme);
 
   @HostBinding('class')
-  style = 'arctic';
+  style = 'react';
 
   constructor(private store: Store<EchoesState>, private versionCheckerService: VersionCheckerService) {
     versionCheckerService.start();
