@@ -23,7 +23,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
       [formGroup]="searchForm"
       (ngSubmit)="onSearch()">
       <div class="form-group clearfix">
-        <input placeholder="Find My Echoes..." id="media-search"
+        <input placeholder="Search..." id="media-search"
           #mediaSearch
           ngxTypeahead
           [taUrl]="'http://suggestqueries.google.com/complete/search'"
