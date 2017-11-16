@@ -23,7 +23,7 @@ $wisteria:                  #8e44ad;
 $wet-asphalt:               #34495e;
 $midnight-blue:             #2c3e50;
 
-$sun-flower:                #f1c40f;
+$sun-flower:                #f5a623;
 $alizarin:                  #e74c3c;
 
 $clouds:                    #ecf0f1;
@@ -40,7 +40,7 @@ $md-lite-blue-300: rgba(79, 195, 247, .9);
 // $gray:                      $concrete;
 // $gray-light:                $silver;
 $inverse:                   white;
-$inverse-transparent: rgba(255, 255, 255, 0.7);
+$inverse-transparent: rgba(255, 255, 255, 0.9);
 $white-dark-transparent: rgba(243,243,243, .9);
 $white-darker: rgb(201, 199, 199);
 
@@ -66,7 +66,7 @@ $brand-sidebar:  $blue-grey-900;
 //
 //## Settings for some of the most global styles.
 
-$body-bg:                   #ecf0f1;
+$body-bg:                   #2c2c2c;
 $text-color:                $gray-dark;
 
 //** Global textual link color.
@@ -308,13 +308,13 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) - 2;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2);
 // $navbar-collapse-max-height:       340px;
 
-$navbar-default-color:             #777;
+$navbar-default-color:             $inverse;
 $navbar-default-bg:                #f8f8f8;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%);
 
 // Navbar links
-$navbar-default-link-color:                #777;
-$navbar-default-link-hover-color:          #333;
+$navbar-default-link-color:                $inverse;
+$navbar-default-link-hover-color:          $inverse;
 $navbar-default-link-hover-bg:             transparent;
 $navbar-default-link-active-color:         #555;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);

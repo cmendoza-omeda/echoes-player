@@ -13,7 +13,7 @@
         border: none;
         border-radius: none;
         background-color: transparent;
-        color: var(--navbar-text-color);
+        color: $inverse;
       }
 
       &.nav-tabs {

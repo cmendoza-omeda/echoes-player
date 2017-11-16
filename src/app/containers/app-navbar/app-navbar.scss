@@ -13,8 +13,8 @@
     nav.navbar {
       margin-left: 0;
       background-image: none;
-      background-color: var(--navbar-bg-color);
-      border-color: var(--navbar-bg-color);
+      background-color: $navbar-inverse-bg;
+      border-color: $navbar-inverse-border;
       color: var(--navbar-text-color);
       box-shadow: 0 1px 7px rgba(0,0,0,0.5);
       transition: transform, margin-left .3s ease-out;      

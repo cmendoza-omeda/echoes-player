@@ -4,7 +4,7 @@
 @media (min-width: 320px) {
 	:host {
 		--media-primary-color: var(--brand-primary);
-		--media-bg-primary: var(--brand-bg-lite-transparent);
+		--media-bg-primary: var(--brand-bg-dark-transparent);
 		--media-dark-transparent: var(--brand-dark-bg-color-transparent);
 		--text-color: var(--brand-primary-text-color);
 		--text-primary-color-inverse: var(--brand-inverse-text);
@@ -51,12 +51,14 @@
 			}
 
 			.media-actions .btn {
-				padding: 0;
+				padding: 2px;
+				border-radius: 3px;
+				font-size: 12px;
 			}
 
 			.front {
 				padding: 0px;
-				background: var(--media-bg-primary);
+				background: #1f1f1f;
 				box-shadow: 0 1px 30px -5px var(--media-dark-transparent);
 				position: relative;
 			}
@@ -152,16 +154,16 @@
 			.description {
 				height: 228px;
 				overflow: hidden;
-				background-color: var(--media-bg-primary);
+				background-color: #333;
 				position: absolute;
-				top: 0px;
+				top: 0;
 				left:0;
 				margin: 0;
-				padding: 8px 8px 36px 8px;
+				padding: 14px 14px 36px 14px;
 				box-sizing: border-box;
 				word-wrap:break-word;
-				font-size: 14px;
-				color: var(--text-color);
+				font-size: 13px;
+				color: $inverse;
 				width: 100%;
 			}
 
@@ -259,7 +261,7 @@
 
 			.item-views {
 				width: auto;
-				max-width: 33%;
+				//max-width: 33%;
 			}
 		}
 	}
@@ -269,7 +271,7 @@
 	:host {
 		.youtube-item {
 			&:hover .media-title .front {
-				background: rgba(255, 255, 255, 0.9);
+				background: rgba(34, 34, 34, 0.9);
 			}
 			.play-media {
 				@include transform(translate(-50%, -50%));
