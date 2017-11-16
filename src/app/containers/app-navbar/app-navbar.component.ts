@@ -39,6 +39,7 @@ import { EchoesState } from '../../core/store';
             [userImageUrl]="(user$ | async).profile.imageUrl"
             (signIn)="signInUser()"
             ></app-navbar-user>
+            <!--
           <app-navbar-menu
             [appVersion]="appVersion$ | async"
             [theme]="themes$ | async"
@@ -47,7 +48,7 @@ import { EchoesState } from '../../core/store';
             (signOut)="signOutUser()"
             (versionUpdate)="updateVersion()"
             (versionCheck)="checkVersion()"
-          ></app-navbar-menu>
+          ></app-navbar-menu>-->
         </section>
       </div>
     </nav>

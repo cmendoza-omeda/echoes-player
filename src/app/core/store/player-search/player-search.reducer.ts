@@ -14,9 +14,9 @@ const initialState: IPlayerSearch = {
   },
   presets: [
     { label: 'Any', value: '' },
+    { label: 'Channel', value: CPresetTypes.CHANNEL },
     { label: 'Albums', value: CPresetTypes.FULL_ALBUMS },
-    { label: 'Live', value: CPresetTypes.LIVE },
-    { label: 'Channel', value: CPresetTypes.CHANNEL }
+    { label: 'Live', value: CPresetTypes.LIVE }
   ],
   pageToken: {
     next: '',
